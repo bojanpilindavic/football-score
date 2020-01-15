@@ -10,7 +10,11 @@ class MatchResults extends Component {
   updateTeam = (teamId, status) => {
     const { selectedTeams, onSetSelectedTeams } = this.props;
     selectedTeams.map(team => {
+<<<<<<< HEAD
       if (team.id === teamId ) {
+=======
+      if (team.id === teamId) {
+>>>>>>> cac2f2e3b6a4e404c0352d41cfe1c4e155cdae32
         if (status === 0) {
           team.gg += 1;
           team.gd += 1;
